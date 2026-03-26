@@ -428,6 +428,11 @@ function redirect($path)
                                 <i class="fas fa-user-plus"></i> Register
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?php echo isActive('report.html'); ?>" href="<?php echo BASE_URL; ?>report.html">
+                                <i class="bi bi-check-circle"></i> Report
+                            </a>
+                        </li>
                     <?php endif; ?>
                 </ul>
             </div>
